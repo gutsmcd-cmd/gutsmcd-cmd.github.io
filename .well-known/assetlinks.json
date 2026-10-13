@@ -1,32 +1,374 @@
 [
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.gazoushiboru","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.pocoapoco","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.atonannichi","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.tabinomochimono","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.teikeibun","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.mosaicippatsu","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.yajirushiippatsu","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.sattomemo","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.qrippatsu","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.warikan","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.countippatsu","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.kitchentimer","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.iroawase","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.kanbankami","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.gomitouban","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.mojikazoeru","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.zairyureminder","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.hakarudake","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.gijimemo","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.mojinose","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.yomiageita","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.kaimonomemo","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.dekamoji","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.threethings","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.longshot","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.pdfippatsu","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.loupe","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.collagechou","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.inwoosu","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}},
-{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"io.github.gutsmcd.tabinophrase","sha256_cert_fingerprints":["DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"]}}
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.gazoushiboru",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.pocoapoco",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.atonannichi",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.tabinomochimono",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.teikeibun",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.mosaicippatsu",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.yajirushiippatsu",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.sattomemo",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.qrippatsu",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.warikan",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.countippatsu",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.kitchentimer",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.iroawase",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.kanbankami",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.gomitouban",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.mojikazoeru",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.zairyureminder",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.hakarudake",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.gijimemo",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.mojinose",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.yomiageita",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.kaimonomemo",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.dekamoji",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.threethings",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.longshot",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.pdfippatsu",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.loupe",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.collagechou",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.inwoosu",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.tabinophrase",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.ikiwosuu",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  }
 ]

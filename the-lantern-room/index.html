@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Lantern Room</title>
+    <meta
+      name="description"
+      content="A sample art gallery website. Six made-up pictures in a small fictional room."
+    />
+    <meta name="theme-color" content="#f3eee6" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,460;9..144,560&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --paper: #f3eee6;
+        --paper-2: #faf7f2;
+        --ink: #1e1a16;
+        --muted: #6f675e;
+        --line: #e4ddd2;
+        --oxide: #8d3d32;
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Outfit, "Avenir Next", "Segoe UI", sans-serif;
+      }
+      a { color: inherit; text-decoration: none; }
+      button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; padding: 0; }
+      img { display: block; width: 100%; object-fit: cover; }
+      .wrap { max-width: 72rem; margin: 0 auto; padding: 0 1.25rem; }
+      header {
+        position: sticky; top: 0; z-index: 2;
+        background: color-mix(in srgb, var(--paper) 95%, transparent);
+        border-bottom: 1px solid var(--line);
+      }
+      .bar { display: flex; align-items: center; justify-content: space-between; padding: 1rem 0; }
+      .name { font-family: Fraunces, Palatino, serif; font-size: 1.25rem; }
+      nav a { display: inline-block; padding: 0.75rem; }
+      .hero { display: grid; gap: 2rem; padding: 2.5rem 0 3rem; }
+      .kicker { letter-spacing: 0.16em; text-transform: uppercase; color: var(--oxide); font-size: 0.875rem; margin: 0; }
+      h1, h2, .title { font-family: Fraunces, Palatino, serif; font-weight: 460; }
+      h1 { font-size: 3rem; line-height: 0.95; margin: 0.6rem 0 0; }
+      .lede { color: var(--muted); font-size: 1.125rem; line-height: 1.55; max-width: 28rem; }
+      .hero button { text-align: left; }
+      .frame { aspect-ratio: 3/4; }
+      .cap { display: flex; justify-content: space-between; gap: 1rem; margin-top: 0.75rem; align-items: baseline; }
+      .title { font-size: 1.5rem; }
+      .meta, .quiet { color: var(--muted); font-size: 0.875rem; }
+      .look { color: var(--oxide); font-size: 0.875rem; }
+      #pictures, #visit, footer { border-top: 1px solid var(--line); }
+      #pictures, #visit { padding: 2.5rem 0; }
+      h2 { font-size: 1.875rem; margin: 0; }
+      .grid { list-style: none; margin: 2rem 0 0; padding: 0; display: grid; gap: 2.5rem 1.5rem; }
+      .grid button { text-align: left; width: 100%; }
+      .card-title { display: block; margin-top: 0.75rem; font-family: Fraunces, Palatino, serif; font-size: 1.25rem; }
+      #visit { background: var(--paper-2); }
+      .visit { display: grid; gap: 2rem; }
+      dt { color: var(--muted); }
+      dd { margin: 0.25rem 0 0; }
+      footer { padding: 2rem 0; }
+      footer p { color: var(--muted); font-size: 0.875rem; line-height: 1.5; margin: 0; }
+      dialog {
+        border: 0; padding: 0; margin: auto; width: min(56rem, calc(100% - 1.5rem));
+        max-height: calc(100% - 1.5rem); background: var(--paper); color: var(--ink);
+      }
+      dialog::backdrop { background: rgb(30 26 22 / 0.72); }
+      .sheet { display: grid; max-height: calc(100dvh - 1.5rem); overflow: auto; }
+      .sheet-copy { position: relative; padding: 1.5rem 1.25rem 2rem; }
+      .close {
+        position: absolute; top: 0.5rem; right: 0.5rem;
+        width: 2.75rem; height: 2.75rem; font-size: 1.5rem;
+      }
+      .note { font-size: 1.125rem; line-height: 1.55; max-width: 22rem; }
+      @media (min-width: 640px) {
+        .grid { grid-template-columns: 1fr 1fr; }
+      }
+      @media (min-width: 768px) {
+        .hero { grid-template-columns: 5fr 7fr; align-items: end; padding: 4rem 0; }
+        h1 { font-size: 3.75rem; }
+        .visit { grid-template-columns: 1fr 1fr; }
+        .sheet { grid-template-columns: 1fr 1fr; }
+        .sheet img { height: 100%; }
+        .sheet-copy { padding: 2rem; }
+      }
+      @media (min-width: 1024px) {
+        .grid { grid-template-columns: 1fr 1fr 1fr; }
+      }
+      @media (max-width: 640px) {
+        dialog { width: 100%; height: 100%; max-height: 100%; margin: 0; }
+        .sheet { max-height: 100dvh; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap bar">
+        <a class="name" href="#top">The Lantern Room</a>
+        <nav>
+          <a href="#pictures">Pictures</a>
+          <a href="#visit">Visit</a>
+        </nav>
+      </div>
+    </header>
+    <main id="top">
+      <section class="wrap hero">
+        <div>
+          <p class="kicker">Now showing</p>
+          <h1>Evening, Kept</h1>
+          <p class="lede">
+            Six pictures about staying in a room a little longer than you meant to.
+            A small sample of the kind of site a gallery can have.
+          </p>
+          <p>Through 12 December</p>
+        </div>
+        <button type="button" data-open="letter">
+          <img class="frame" src="works/letter.jpg" alt="The Letter by Hana Voss" />
+          <span class="cap">
+            <span>
+              <span class="title">The Letter</span>
+              <span class="meta">Hana Voss, 2021</span>
+            </span>
+            <span class="look">Look closer</span>
+          </span>
+        </button>
+      </section>
+      <section id="pictures">
+        <div class="wrap">
+          <h2>The pictures</h2>
+          <ul class="grid" id="grid"></ul>
+        </div>
+      </section>
+      <section id="visit">
+        <div class="wrap visit">
+          <div>
+            <h2>Visit</h2>
+            <p class="lede">
+              The Lantern Room is a made-up gallery, built so you can see what a
+              small exhibition site can feel like. There is no door to knock on.
+            </p>
+          </div>
+          <dl>
+            <div>
+              <dt>Address</dt>
+              <dd>12 Harbor Lane</dd>
+              <dd>A fictional street</dd>
+            </div>
+            <div>
+              <dt>Hours</dt>
+              <dd>Thursday to Sunday, 11 to 5</dd>
+              <dd>Closed Monday to Wednesday</dd>
+            </div>
+            <div>
+              <dt>Admission</dt>
+              <dd>Free, because it is not a real place</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="wrap">
+        <p>Sample website. The gallery, the artists, the pictures, and the address are made up.</p>
+      </div>
+    </footer>
+    <dialog id="dlg">
+      <div class="sheet">
+        <img id="dlg-img" alt="" />
+        <div class="sheet-copy">
+          <button class="close" type="button" id="close" aria-label="Close">×</button>
+          <p class="kicker">Picture</p>
+          <h2 id="dlg-title"></h2>
+          <p id="dlg-who"></p>
+          <p class="meta" id="dlg-medium"></p>
+          <p class="note" id="dlg-note"></p>
+        </div>
+      </div>
+    </dialog>
+    <script>
+      const works = [
+        ["letter", "The Letter", "Hana Voss", "2021", "Oil on panel", "She reads it twice, then leaves it open on the sill."],
+        ["kitchen", "Kitchen Light, Late", "Mira Ell", "2019", "Oil on linen", "A bowl, a lemon, and the hour before anyone else is up."],
+        ["harbor", "Two Boats", "Tomas Reed", "2016", "Oil on canvas", "The harbor after the last ferry has gone."],
+        ["edge", "Torn Edge", "Jun Park", "2024", "Acrylic and paper", "Red is the only loud thing in the room."],
+        ["path", "After the Rain", "Lena Ortiz", "2018", "Oil on canvas", "The path behind the gallery, still wet."],
+        ["lamp", "One Lamp", "Soren Hale", "2022", "Oil on linen", "Rain on the glass, and the light left on."]
+      ];
+      const byId = Object.fromEntries(works.map((w) => [w[0], w]));
+      const grid = document.getElementById("grid");
+      for (const [id, title, artist, year] of works) {
+        const li = document.createElement("li");
+        li.innerHTML = `<button type="button" data-open="${id}"><img class="frame" src="works/${id}.jpg" alt=""><span class="card-title">${title}</span><span class="meta">${artist}, ${year}</span></button>`;
+        grid.appendChild(li);
+      }
+      const dlg = document.getElementById("dlg");
+      function show(id) {
+        const w = byId[id];
+        if (!w) return;
+        document.getElementById("dlg-img").src = "works/" + w[0] + ".jpg";
+        document.getElementById("dlg-img").alt = w[1] + " by " + w[2];
+        document.getElementById("dlg-title").textContent = w[1];
+        document.getElementById("dlg-who").textContent = w[2] + ", " + w[3];
+        document.getElementById("dlg-medium").textContent = w[4];
+        document.getElementById("dlg-note").textContent = w[5];
+        dlg.showModal();
+      }
+      document.body.addEventListener("click", (event) => {
+        const btn = event.target.closest("[data-open]");
+        if (btn) show(btn.getAttribute("data-open"));
+      });
+      document.getElementById("close").addEventListener("click", () => dlg.close());
+    </script>
+  </body>
+</html>

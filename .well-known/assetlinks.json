@@ -478,5 +478,125 @@
         "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.armeasure",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.readaloud",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.classroomprintables",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.messagedecoder",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.korocorgi",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.momsphotostudio",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.u74garden",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.u74picturetodo",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.u74songs",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.gutsmcd.u74summarize",
+      "sha256_cert_fingerprints": [
+        "DC:47:0F:11:B6:94:A6:04:EF:AB:0C:E4:43:03:27:62:DE:2F:B9:41:3E:2E:C3:BD:AE:C4:1A:89:36:95:27:81"
+      ]
+    }
   }
 ]
